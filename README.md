@@ -1,4 +1,4 @@
-# Calculator - Feature Version
+# Calculator - Command-Line Version
 
 ## Purpose
 A simple command-line calculator written in Python for CS-108 Lab 06 (Git & GitHub practice).
