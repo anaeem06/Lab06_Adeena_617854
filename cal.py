@@ -6,8 +6,10 @@ def calculate(a, b, op):
     elif op == "*":
         return a * b
     elif op == "/":
+        if b == 0:
+            return "Error: division by zero"
         return a / b
-    return None
+    return "Error: unknown operator"
 
 a = float(input("First number: "))
 op = input("Operator (+, -, *, /): ")
